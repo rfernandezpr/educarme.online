@@ -1,0 +1,135 @@
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-family: 'Source Sans Pro';
+    color: white !important;
+}
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;
+    background: #773e90; /*#333;*/
+    padding: 10px 0;
+    /*color: #fff;*/
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #773e90;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+    float: right;
+}
+
+.divider-vertical-second-menu{
+   height: 40px;
+   width: 1px;
+   margin: 0 5px;
+   overflow: hidden;
+   background-color: #DDD;
+   border-right: 2px solid #FFF;
+}
+
+.divlogo {
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    width: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+}
+
+.container p{
+    line-height: 200px; /* Create scrollbar to test positioning */
+}
+
+.social-icons {
+  /*position: absolute;*/
+  /*margin-bottom: 2rem;*/
+  margin-top: 1rem !important;
+  width: 100%;
+  float: right;
+}
+
+.social-icons ul {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icons ul > li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.social-icons ul > li > a {
+  display: block;
+  color: #773e90;
+  background-color: rgba(251, 185, 0, 0.8);
+  border-radius: 100%;
+  font-size: 1rem;
+  line-height: 2rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+@media (min-width: 768px) {
+  .social-icons {
+    margin: 0;
+    /*position: absolute;*/
+    right: 2.5rem;
+    bottom: 2rem;
+    width: auto;
+  }
+  .social-icons ul {
+    margin-top: 0;
+    width: auto;
+  }
+  .social-icons ul > li {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    float: left;
+  }
+  .social-icons ul > li:last-child {
+    margin-bottom: 0;
+  }
+  .social-icons ul > li > a {
+    transition: all 0.2s ease-in-out;
+    font-size: 1rem;
+    line-height: 2rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  .social-icons ul > li > a:hover {
+    background-color: #fbb900;
+    color: white;
+  }
+}
+
+.section3 {
+    height: 720px;
+    width: 100%;
+    background-image: url("../img/BannerConTexto_01.jpg");
+    background-size: contain;
+    background-repeat:no-repeat;
+}
